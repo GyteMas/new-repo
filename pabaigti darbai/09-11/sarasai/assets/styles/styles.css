@@ -1,0 +1,12 @@
+.main-content {
+    width:50%;
+    margin-inline: auto;
+    max-width: 1256px;
+    margin-top: 100px;
+}
+div{
+    border-bottom: 2px solid black;
+}
+.image{
+    list-style-image: url(../img/Picture1.png);
+}

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+:root{
+    font-family: "Young Serif", serif;
+}
+body{
+    width: 1280px;
+    margin: auto;
+}
+header{
+    height: 100px;
+    background-color: beige;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+.logo,.meniu{
+    width: 60px;
+    height: 60px;
+}
+.mano{
+    height: calc(100vh - 200px);
+    position: relative;
+}
+.raud{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: absolute;
+    right: 50px;
+    top: 13vh;
+
+}
+.text{
+    background-color: rgb(219, 213, 213);
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    padding: 50px;
+    position: absolute;
+    right: 155px;
+    top: 20vh;
+    p a{
+        color: black;
+    }
+    .learn{
+        background-color: red;
+        padding: 10px;
+        border-radius: 10px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+}
+.pizza{
+    background-image:url(../assets/img/OIP.jpg) ;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    position: absolute;
+    right: 600px;
+    top: 11vh;
+    border: 2px solid red;
+}
+.food{
+    background-image: url(../assets/img/exps28800_UG143377D12_18_1b_RMS.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    border: 4px solid white;
+    border-radius: 50%;
+    top: 480px;
+    left: 80px;
+}
+.lines{
+    background-image: url(../assets/img/seamless-colorful-horizontal-lines-pattern-vector.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 750px;
+    left:300px;
+
+}
+.koja{
+    display: flex;
+    height: 100px;
+    background-color: bisque;
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    align-items:center ;
+    justify-content: center;
+    
+}

@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root * {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+    margin: auto;
+    height: 100vh;
+    padding: 0;
+    background-color: rgb(223, 160, 67);
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: blueviolet;
+}
+div{
+    box-sizing: border-box;
+    width: calc(100vw - 8rem);
+    margin: 4rem;
+    height: 70vh;
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+   place-content: center;
+   grid-template-areas:
+        'dog-foto dog cat'
+        'dog-foto bird rabbit';
+
+}
+section{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    color: blue;
+    font-weight: bold;
+    border: 2px solid red;
+}
+.dog-foto {
+    background-color: blue;
+    background-image: url(../assets/img/06a50bbdf91e4958c24bf32aea43fc85.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    grid-area: dog-foto;
+}
+
+.dog {
+    background-color: blue;
+    background-image: url(../assets/img/r1zwlw1l.jpg);
+    background-size: cover;
+    grid-area: dog;
+
+}
+
+.cat {
+    background-color: blue;
+    background-image: url(../assets/img/dab3a445738da82c7993d996fe36c83f.jpg);
+    background-size: cover;
+    grid-area: cat
+}
+
+.bird {
+    background-color: blue;
+    background-image: url(../assets/img/1696994156_MR-11102023101553-chickadee-clip-art-svg-chickadee-bird-vector-chickadee-svg-image-1.jpg);
+    background-size: cover;
+    grid-area: bird;
+}
+
+.rabbit {
+    background-color: blue;
+    background-image: url(../assets/img/R.jpg);
+    background-size: cover;
+    grid-area: rabbit;
+}

@@ -1,0 +1,55 @@
+.navi{
+    background-color: rgb(197, 195, 195);
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+.navi .imga{
+    border-radius: 50%;
+    border: 2px solid black;
+    height: 5vh;
+}
+.navi .naviga{
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+    align-items: center;
+    list-style-type: none;
+}
+.naviga .menu{
+    text-align: center;
+    padding: 5px;
+    width: 5vw;
+    padding: 5px;
+    border-right: 2px solid black;
+}
+.navi li:last-child{
+    border-right: none;
+}
+main{
+    display: flex;
+    align-items: center;
+    height: 95vh;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+}
+.green-border{
+    width:60vw ;
+    height: 50vh;
+    border:10px dotted green;
+    position: relative;
+    display: flex;
+}
+.cat{
+    position: absolute;
+    top: -150px;
+    left: 150px
+}
+.dog{
+    position: absolute;
+    bottom: -220px;
+    right: 150px;
+}

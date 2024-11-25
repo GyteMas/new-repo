@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <script src="../script.js" defer></script>
+  <link href="/src/css/output.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="border-2 border-green-900 w-[80vw] grid grid-cols-2">
+    <div class="flex flex-col border-2 border-green-900 w-[40vw]">
+      <span class="border-2 border-green-900 w-[40vw] font-bold">Duomenys</span>
+      <div>
+        <label for="">Įveskite intervalo pradžią:</label><input class="border-2 border-green-900 w-[10vw]" type="text" id="pradzia" />
+      </div>
+      <div>
+        <label for="">Įveskite intervalo pabaigą:</label><input class="border-2 border-green-900 w-[10vw]" type="text" id="pabaiga" />
+      </div>
+      <button class="bg-green-900 w-[100px] place-self-center font-bold" id="calc" type="submit"
+        value="Submit">skaiciuoti</button>
+    </div>
+    <div class="flex flex-col border-2 border-green-900 w-[40vw]">
+      <span class="border-2 border-green-900 w-[40vw] font-bold">Rezultatai:
+      </span>
+      <p>Reikalingų marškinėlių skaičius:</p>
+      <p class="font-bold" id="rezult"></p>
+    </div>
+  </div>
+  <br>
+<!--2 UZDUOTIS-->
+
+  <div class="border-2 border-green-900 w-[80vw] grid grid-cols-2">
+    <div class="flex flex-col border-2 border-green-900 w-[40vw]">
+      <span class="border-2 border-green-900 w-[40vw] font-bold">Duomenys</span>
+      <div>
+        <label for="">Įveskite žingsnių kiekį iki mokyklos:</label><input class="border-2 border-green-900 w-[10vw]" type="text" id="zingsniai" />
+      </div>
+      
+      <button class="bg-green-900 w-[100px] place-self-center font-bold" id="calc1" type="submit"
+        value="Submit">skaiciuoti</button>
+    </div>
+    <div class="flex flex-col border-2 border-green-900 w-[40vw]">
+      <span class="border-2 border-green-900 w-[40vw] font-bold">Rezultatai:
+      </span>
+      <p>Suplojimų bus:</p>
+      <p class="font-bold" id="suplos"></p>
+      <p>Spragtelėjimų bus:</p>
+      <p class="font-bold" id="spragtels"></p>
+    </div>
+  </div>
+  <br>
+  <!--3 UZDUOTIS-->
+
+  <div class="border-2 border-green-900 w-[80vw] grid grid-cols-2">
+    <div class="flex flex-col border-2 border-green-900 w-[40vw]">
+      <span class="border-2 border-green-900 w-[40vw] font-bold">Duomenys</span>
+      <div>
+        <label for="">Kiek snaigių nukrito per pirmąją sekundę:</label><input class="border-2 border-green-900 w-[10vw]" type="text" id="nukrito" />
+      </div>
+      <div>
+        <label for="">kiek sekundžių snigo:</label><input class="border-2 border-green-900 w-[10vw]" type="text" id="snigo" />
+      </div>
+      <button class="bg-green-900 w-[100px] place-self-center font-bold" id="calc2" type="submit"
+        value="Submit">skaiciuoti</button>
+    </div>
+    <div class="flex flex-col border-2 border-green-900 w-[40vw]">
+      <span class="border-2 border-green-900 w-[40vw] font-bold">Rezultatai:
+      </span>
+      <p>Kiek snaigių nukrito per nurodytą laiką:</p>
+      <p class="font-bold" id="snaiges"></p>
+    
+    </div>
+  </div>
+  <br>
+  <!--4 UZDUOTIS-->
+
+  <div class="border-2 border-green-900 w-[80vw] grid grid-cols-2">
+    <div class="flex flex-col border-2 border-green-900 w-[40vw]">
+      <span class="border-2 border-green-900 w-[40vw] font-bold">Duomenys</span>
+      <div>
+        <label for="">Kiek eglučių atvežta:</label><input class="border-2 border-green-900 w-[10vw]" type="text" id="eglutes" />
+      </div>
+      <div>
+        <label for="">Įveskite eglučių aukščius atskiriant kableliais:</label><input class="border-2 border-green-900 w-[10vw]" type="text" id="masyvas" />
+      </div>
+      <button class="bg-green-900 w-[100px] place-self-center font-bold" id="calc3" type="submit"
+        value="Submit">skaiciuoti</button>
+    </div>
+    <div class="flex flex-col border-2 border-green-900 w-[40vw]">
+      <span class="border-2 border-green-900 w-[40vw] font-bold">Rezultatai:
+      </span>
+      <p>Eglutės aukščio vidurkis:</p>
+      <p class="font-bold" id="aukštis"></p>
+    
+    </div>
+  </div>
+  <br>
+   <!--5 UZDUOTIS-->
+
+   <div class="border-2 border-green-900 w-[80vw] grid grid-cols-2">
+    <div class="flex flex-col border-2 border-green-900 w-[40vw]">
+      <span class="border-2 border-green-900 w-[40vw] font-bold">Duomenys</span>
+      <div>
+        <label for="">Kiek draugų sugalvojo skaičius:</label><input class="border-2 border-green-900 w-[10vw]" type="text" id="draugai" />
+      </div>
+      <div>
+        <label for="">Įveskite draugų sugalvotus skaičius:</label><input class="border-2 border-green-900 w-[10vw]" type="text" id="skaiciai" />
+      </div>
+      <button class="bg-green-900 w-[100px] place-self-center font-bold" id="calc4" type="submit"
+        value="Submit">skaiciuoti</button>
+    </div>
+    <div class="flex flex-col border-2 border-green-900 w-[40vw]">
+      <span class="border-2 border-green-900 w-[40vw] font-bold">Rezultatai:
+      </span>
+      <p>Kiek lyginių skaičių tarp sugalvotų:</p>
+      <p class="font-bold" id="lyginiai"></p>
+    
+    </div>
+  </div>
+  <br>
+  <script src="/node_modules/flowbite/dist/flowbite.min.js"></script>
+</body>
+
+</html>

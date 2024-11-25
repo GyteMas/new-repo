@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Promise- Gytė Maslinskienė">
+    <link rel="stylesheet" href="assets/styles.css">
+    <title>sarasai</title>
+</head>
+
+<body>
+
+    <header class="top">
+        <h1>Dance Registration</h1>
+        <p class="1">Fill the registration form below keenly to enter the dancing competition</p>
+        <hr>
+    </header>
+    <form action="/action_page.php" method="get" autocomplete="on">
+        <table class="table">
+            <tr>
+                <td class="bold">Name</td>
+                <td><input type="text" name="fname"><br><label for="fname"> First name</label></td>
+                <td><input type="text" name="sname"><br><label for="sname"> Last name</label></td>
+                </td>
+            </tr>
+            <tr>
+                <td class="bold">Email</td>
+                <td colspan="2"><input class="large" type="text" name="email" size="55"><br><label
+                        for="email">example@example.com</label></td>
+            </tr>
+            <tr class="phone">
+                <td class="bold">Phone Number</td>
+                <td><input class="small" type="text" name="area" size="4"> - <br><label for="area">Area Code</label>
+                <td><input class="medium" type="text" name="phone"><br><label for="phone">Phone number</label>
+                </td>
+                </td>
+            </tr>
+            <tr>
+                <td class="bold">Gender</td>
+                <td><input type="radio" name="sex" value="male">Male</td>
+                <td><input type="radio" name="sex" value="Female">Female</td>
+            </tr>
+            <tr>
+                <td rowspan="4" class="bold">Address</td>
+                <td colspan="2">
+                    <input class="large" type="text" name="street" size="55"><br><label for="street">Street
+                        Address</label><br>
+                    <input class="large" type="text" name="line2" size="55"><br><label for="line2">Street Address Line
+                        2</label><br>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="text" name="city"><br><label for="city">City</label></td>
+                <td><input type="text" name="state"><br><label for="state">State / Providence</label></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="postal"><br><label for="state">Postal / Zip Code</label></td>
+            </tr>
+        </table>
+        <hr>
+        <table class="nr2">
+            <tr>
+                <td rowspan="6" class="bold">Type of Dance</td>
+                <td><input type="radio" name="salsa" value="salsa">Salsa</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="bachata" value="bachata">Bachata</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="tango" value="tango">Tango</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="hiphop" value="hiphop">Hip Hop</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="club" value="club">Club</td>
+            </tr>
+            <tr>
+                <td class="other"><input type="radio" name="kita" value="kita"><input type="text" name="fname" placeholder="Other"></td>
+            </tr>
+            <br>
+            <tr>
+                <td class="bold">Start Day & <br>Time</td>
+                <td><input type="date" name="start" value="data"><input type="time" name="start" value="time"></td>
+            </tr>
+            <tr>
+                <td class="bold">Comments</td>
+                <td><textarea name="messagge" id="message" rows="10" cols="30"></textarea></td>
+            </tr>
+        </table>
+        <br>
+        <p class="du"><input type="Submit" value="Submit"></p> 
+    </form>
+</body>
+
+</html>

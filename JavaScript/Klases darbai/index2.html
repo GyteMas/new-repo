@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="./input.css" />
+    <link rel="stylesheet" href="./output.css" />
+    <script defer src="/date.js"></script>
+    <link rel="stylesheet" href="../src/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/2ced0dd673.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Bootstrap</title>
+  </head>
+
+  <body>
+    <div class="text-center border-8 border-red-700">
+      <h1 class="font-bold">Palyginkite kuri data yra didesne</h1>
+      <form action="">
+        <input id="date1" type="date" placeholder="Iveskite data" />
+        <input id="date2" type="date" placeholder="Iveskite data" />
+        <button id="calc" type="submit" form="form1" value="Submit">
+          Submit
+        </button>
+      </form>
+      <div>
+        <h1 class="font-bold text-l">Rezultatas:</h1>
+        <span id="rezultatas"></span>
+      </div>
+      <div id="div">
+        <h1>Kiek liko iki kaledu:</h1>
+        <form action="">
+          <input id="date3" type="date" placeholder="Iveskite data" />
+          <button id="calc1" type="submit" form="form1" value="Submit">
+            Submit
+          </button>
+        </form>
+        <div>
+          <h1 class="font-bold text-l">Rezultatas:</h1>
+          <span id="rezultatas2"></span>
+        </div>
+      </div>
+    </div>
+    <h1 class="text-center font-bold text-2xl">Paspauskite paveiksleli:</h1>
+    <div class="grid grid-cols-3 px-24 gap-10 images">
+      <div
+        class="w-[full] h-[450px] bg-cover p-0 m-0 img"
+        style="background-image: url(&quot;./images/OIP.jpg&quot;)"
+      ></div>
+      <div
+        class="w-[full] h-[450px] bg-cover p-0 m-0 img"
+        style="background-image: url(&quot;./images/Dog\ Funny\ Animal\ Picture\ 2014-2015.jpg&quot;);
+        "
+      ></div>
+      <div
+        class="w-[full] h-[450px] bg-cover p-0 m-0 img"
+        style="background-image: url(&quot;./images/R.jpg&quot;)"
+      ></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
+  </body>
+</html>

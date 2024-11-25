@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body{
+    
+    background-color: rgb(248, 159, 159);
+    box-sizing: border-box;
+}
+main{
+    box-sizing: border-box;
+    margin: 2rem;
+}
+header{
+    background-color: rgb(71, 199, 182);
+   font-family: outfit;
+   padding: 5px;
+   text-align: center;
+   box-sizing: inherit;
+   margin: 2rem;
+}
+footer{
+    background-color: rgb(71, 199, 182);
+   font-family: outfit;
+   padding: 5px;
+   text-align: center;margin: 2rem;
+}
+aside{
+    background-color: rgb(37, 142, 128);
+    width: 30%;
+    text-align: center;
+    box-sizing: inherit;
+    justify-content: flex-end;
+    margin-right: 2rem ;
+}
+article{
+    background-color: rgb(197, 89, 89);
+    width: 70%;
+    text-align: center;
+    box-sizing: inherit;
+    margin: auto;
+    justify-content: flex-end;
+
+}
+.nee{
+    display: flex;
+    box-sizing: inherit;
+    align-items: stretch;
+    justify-content: flex-end;
+    justify-content:space-evenly;
+    height: 40vh;
+   margin-bottom: 2rem;
+}
+.mano{
+    display: flex;
+    align-items: stretch;
+    box-sizing: border-box;
+    margin: 2rem;
+}
+.img{
+    align-self: last baseline; 
+    box-sizing: inherit;
+    background-color: bisque;
+    height:24vh ;
+    width: 23%;
+    justify-content:space-evenly;
+    text-align: center;
+}
+h1{
+    display: block;
+}

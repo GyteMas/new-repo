@@ -1,0 +1,90 @@
+.main-content {
+    width: 100%;
+    margin-inline: auto;
+    max-width: 1256px;
+    margin-top: 100px;
+}
+caption{
+    font-weight: 800;
+    padding: 10px;
+    font-size: larger;
+    border-bottom: 2px solid rgb(94, 92, 92);
+    text-align: left;
+}
+.members{
+    background-color: rgb(202, 197, 197);
+    margin: 10px 20px;
+    padding: 7px;
+    border-radius: 5px;
+    font-size: small;
+}
+table,
+th,
+td {
+    border: 0px solid black;
+    border-collapse: collapse;
+    padding: 3px;
+    margin: 0 auto;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+tr:nth-child(odd) {
+    background-color: #c7c5c5;
+}
+#frow{
+    background-color: #fff;
+    text-align: left;
+    color: #a09e9e;
+}
+img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: auto;
+    padding: 0;
+}
+
+table tbody tr:hover td,
+table tbody tr:hover th {
+    background-color: rgb(136, 139, 139);
+}
+
+.status{
+    margin: 10px 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.active{
+    background-color: rgb(34, 243, 173);
+    color: rgb(37, 139, 105);
+}
+.inactive{
+    background-color: rgb(248, 204, 109);
+    color: rgb(189, 134, 31);
+}
+.offline{
+    background-color: rgb(211, 210, 208);
+    color: rgb(99, 96, 91);
+}
+.tag{
+    margin: 5px 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.dev{
+    background-color: rgb(154, 220, 247);
+    color: rgb(31, 131, 189);
+}
+.qa{
+    background-color: rgb(247, 112, 103);
+    color: rgb(189, 49, 31);
+}
+.design{
+    background-color: rgb(212, 180, 248);
+    color: rgb(131, 31, 189);
+}
+.marketing{
+    background-color: rgb(248, 204, 109);
+    color: rgb(189, 134, 31);
+}

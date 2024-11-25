@@ -1,0 +1,25 @@
+:root * {
+    padding: 0 auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 900px;
+
+}
+
+.checked {
+    color: orange;
+}
+.info{
+    text-align: center;
+}
+button{
+    padding: 14px 28px;
+    font-size: 20px;
+}

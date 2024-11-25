@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Sofadi+One&display=swap');
+
+body {
+    font-family: "Sofadi One", system-ui;
+}
+
+.dog {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.cover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .flex-form {
+        background-color: white;
+        width: 80vw;
+        height: 7vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 10px solid gray;
+        position: absolute;
+        top: 40vh;
+        left: 10vw;
+
+        .search {
+            width: 8vw;
+            color: white;
+            background-color: brown;
+            position: absolute;
+            right: 0vw;
+            height: 7vh;
+            border: none;
+        
+        }
+        
+        .guest {
+            width: 8vw;
+            position: absolute;
+            right: 8vw;
+            height: 7vh;
+            border: none;
+        }
+        
+        .du {
+            width: 12vw;
+            position: absolute;
+            right: 16vw;
+            height: 7vh;
+            border: none;
+        }
+        
+        .to {
+            width: 4vw;
+            position: absolute;
+            right: 28vw;
+            height: 7vh;
+            text-align: center;
+            border: none;
+        }
+        
+        .trys {
+            width: 12vw;
+            position: absolute;
+            right: 32vw;
+            height: 7vh;
+            text-align: center;
+            border: none;
+        }
+        
+        .from {
+            width: 4vw;
+            position: absolute;
+            right: 44vw;
+            height: 7vh;
+            text-align: center;
+            border: none;
+        }
+        
+        .where {
+            width: 32vw;
+            position: absolute;
+            right: 48vw;
+            height: 7vh;
+            text-align: center;
+            border: none;
+        }
+        .input{
+            border-right: 1px solid black;
+        }
+        .input:last-child{
+            border: none;
+        }
+    }
+}

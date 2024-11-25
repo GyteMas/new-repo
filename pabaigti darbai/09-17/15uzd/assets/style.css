@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+h1{
+    text-align: center;
+}
+.topik{
+    text-align: center;
+    background-color: rgb(100, 241, 241);
+    margin: auto;
+    width: 30vw;
+    height: 30vh;
+    box-sizing: border-box;
+    display: flex;
+}
+.mainn{
+    box-sizing: border-box;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    width: 200px;
+    height: 100px;
+    border-radius: 5px;
+    display: flex;
+}
+.burbulas{
+    background-color: brown;
+    color: aliceblue;
+    border-radius: 50%;
+    text-align: center;
+    margin: auto;
+    padding: 4px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+    z-index: 1;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+.zodziai{
+    justify-content:center;
+    margin: auto;
+}
+i{
+    margin: 0;
+    padding: 0;
+}
+.icon{
+    width: 35%;
+    display: flex;
+    margin: 0;
+    justify-content: right;
+    position: relative;
+    padding-right: 10px;
+}
+.text{
+    width: 70%;
+    text-align: left;
+    margin: auto;
+
+}
+.krepšelis{
+    font-size: 30px;
+    margin: auto;
+    position: absolute;
+    top: 25px;
+
+
+}
+.krep{
+    font-weight: bold;
+    font-size: 24px;
+}

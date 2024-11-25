@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
+
+:root * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Sofadi One", system-ui;
+}
+
+.head {
+    @media only screen and (min-width: 768px) {
+        display: flex;
+    }
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30vw;
+    height: 10vh;
+
+    @media only screen and (min-width: 768px) {
+        width: 15vw;
+    }
+
+    @media only screen and (min-width: 1400px) {
+        width: 10vw;
+    }
+}
+
+.meniu {
+    display: flex;
+    flex-direction: column;
+    background-color: #C39898;
+    text-align: center;
+    width: 100vw;
+
+    a {
+        text-decoration: none;
+        border: 1px solid #987070;
+        padding: 0.5rem;
+        color: #F1E5D1;
+
+        @media only screen and (min-width: 768px) {
+            height: 10vh;
+            width: calc(85vw/4);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid #987070;
+            font-size: large;
+        }
+
+        @media only screen and (min-width: 1400px) {
+            height: 10vh;
+            width: calc(90vw/4);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid #987070;
+            font-size: x-large;
+        }
+
+        &:focus {
+            background-color: #987070;
+        }
+    }
+
+    @media only screen and (min-width: 768px) {
+        height: 10vh;
+        justify-content: space-evenly;
+        flex-direction: row;
+        align-items: center;
+        width: 85vw;
+    }
+
+    @media only screen and (min-width: 1400px) {
+        height: 10vh;
+        justify-content: space-evenly;
+        flex-direction: row;
+        align-items: center;
+        width: 90vw;
+    }
+}
+
+.main {
+    background-color: #F1E5D1;
+    width: 100vw;
+
+    .foto {
+        background-image: url(../assets/img/R\ \(2\).jpg);
+        height: 30vh;
+        width: 100vw;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .first {
+        text-align: center;
+        color: #987070;
+        font-size: 56px;
+        -webkit-text-stroke: 0.5px #060505;
+    }
+
+    .second {
+        font-size: 30px;
+        text-align: center;
+        color: #987070;
+        padding: 2rem 0 2rem 0;
+    }
+
+    .dogs {
+        @media only screen and (min-width: 768px) {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            gap: 1rem;
+        }
+
+        @media only screen and (min-width: 1400px) {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            gap: 1rem;
+        }
+
+        .img {
+            width: 100%;
+
+            @media only screen and (min-width: 768px) {
+                height: 40vh;
+                object-fit: cover;
+
+            }
+
+            @media only screen and (min-width: 1400px) {
+                height: 40vh;
+            }
+        }
+
+        .text {
+            text-align: center;
+        }
+
+        .text {
+            .namee {
+                color: #987070;
+                font-weight: bold;
+            }
+
+            p {
+                color: #C39898;
+            }
+        }
+    }
+}
+
+.foot {
+    background-color: #987070;
+    color: #F1E5D1;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0 1rem 0;
+}

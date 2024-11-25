@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <script src="../script.js" defer></script>
+  <link href="../src/css/output.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="border-2 border-green-900 w-[80vw] grid grid-cols-2">
+    <div class="flex flex-col border-2 border-green-900 w-[80vw]">
+      <span class="border-2 border-green-900 w-[80vw] font-bold">Duomenys</span>
+      <div>
+        <label for="">Sukauptas riesutu kiekis:</label><input class="border-2 border-green-900 w-[10vw]" type="text" id="sukaupta" />
+      </div>
+      <div>
+        <label for="">Kiek vovere turi vovieriuku:</label><input class="border-2 border-green-900 w-[10vw]" type="text" id="vovieriukai" />
+      </div>
+      <button class="bg-green-900 w-[100px] place-self-center font-bold" id="calc" type="submit"
+        value="Submit">skaiciuoti</button>
+    </div>
+    <div class="flex flex-col border-2 border-green-900 w-[80vw]">
+      <span class="border-2 border-green-900 w-[80vw] font-bold">Rezultatai:
+      </span>
+      <p>Riesutu sukaupta <span class="font-bold" id="rezult"></span> dienoms</p>
+      <p class="font-bold" id="uzteks"></p>
+    </div>
+  </div>
+  <br>
+  <script src="/node_modules/flowbite/dist/flowbite.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Outfit;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    box-sizing: border-box;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.navi {
+    display: flex;
+    background-color: rgb(202, 51, 51);
+    color: white;
+    height: 5vh;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+
+    .navig {
+        padding-right: 50px;
+    }
+}
+
+
+.mimic {
+    background-color: rgb(92, 91, 91);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: inherit;
+
+    .mimi {
+        color: white;
+        font-size: 4rem;
+        margin: 0;
+        padding: 0;
+    }
+
+    .mim {
+        font-size: 3rem;
+        font-weight: 200;
+        font-style: italic;
+        color: rgb(202, 51, 51);
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.midle {
+    text-align: center;
+    background: #45567d;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: inherit;
+
+    .middlee {
+        max-width: 640px;
+        margin: 0 auto 6rem auto;
+        border-bottom: 0.2rem solid white;
+        font-size: 36px;
+        box-sizing: inherit;
+        padding-top: 100px;
+        color: white;
+        text-align: center;
+    }
+    .pic-container {
+        width: 1280px;
+        margin: auto;
+        margin-bottom: 6rem;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 2rem;
+    
+        img,
+        .pic-link {
+            width: 400px;
+            text-align: center;
+            padding: 0;
+            position: relative;
+        }
+    
+        .pic-name {
+            background-color: rgb(37, 33, 33);
+            padding: 20px;
+            margin: 0;
+            position: absolute;
+            bottom: 4px;
+            width: 360px;
+            font-size: 24px;
+            color: white;
+        }
+        .pic-link:hover .pic-name::before{
+            content:"<";
+            color: rgb(202, 51, 51);
+            padding: 5px;
+        }
+        .pic-link:hover .pic-name::after{
+            content:"/>";
+            color: rgb(202, 51, 51);
+            padding: 5px;
+        }
+    }
+    .showw{
+        background-color: rgb(37, 33, 33);
+        color: white;
+        padding: 15px 30px;
+        text-align: center;
+        margin: auto;
+        font-size: 20px;
+    }
+    .showw:hover{
+        background-color:rgb(202, 51, 51);
+        transition: 0.5s;
+    }
+}
+
+.pp3 {
+    font-style: italic;
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+.fun-fa{
+    margin: 15px;
+    color: white;
+    font-size: 30px;
+    box-sizing: inherit;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 980px;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+}
+.fa{
+    padding: 20px;
+    font-size: 2.4rem;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    transition: 0.5s;
+    color: white;
+}
+.fa-fa-fa{
+    position: relative;
+    top: 0px;
+}
+.fa-fa-fa:hover{
+    top: 10px;
+}
+.footeris{
+    border-top: 3px solid rgb(202, 51, 51);
+    display: flex;
+    background-color: rgb(92, 91, 91);
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    height: 7vh;
+    .foot{
+        font-size: 20px;
+    }
+}
+.bott{
+height: 90vh;
+}

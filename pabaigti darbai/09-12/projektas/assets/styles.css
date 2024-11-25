@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
+body{
+    margin: auto;
+    padding: auto;
+    font-family: Sofadi One;
+    background-color: rgb(123, 216, 216);
+}
+
+header{
+background-image: url(../assets/img/1859582.jpg);
+height: 350px;
+width: 100%;
+background-repeat: no-repeat;
+display: block;
+background-size: cover;
+background-color: rgb(26, 155, 155);
+border: 0;
+padding: 0;
+margin: 0;
+}
+.logo {
+    position: absolute;
+    top: 0px; left: 0px;
+    display: block;
+    width: 10%;
+}
+nav{
+    font-size: 30px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    background-color: rgb(26, 155, 155);
+}
+.main{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25% ;
+    width: 100%;
+}
+.column{
+    grid-template-columns: 25% 25% 25% 25% ;
+
+}
+.stulp{
+    display: flex;
+    background-color: rgb(26, 155, 155);
+}
+.cool{
+    width: 80%;
+}
+.copy{
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+    background-color: rgb(10, 82, 82);
+}
+footer{
+    position: absolute;
+    bottom: 0px;
+    display: block;
+    width: 100%;
+}
+.kontakt{
+    display:flex;
+    margin: 0;
+    padding: 0;
+}
+.contacts{
+    width: 70vw;
+    height:55vh;
+    background-image: url(/assets/img/OIP.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.form{
+    width: 30vw;
+    margin-left: 100px;
+    text-align: center;
+}
+select{
+    width:240px;
+    margin-bottom: 20px;
+}
+.sub{
+    margin:15px;
+    background-color: rgb(54, 26, 80);
+    color: azure;
+}
+.tex{
+    width:235px;
+}
+.buy{
+    background-color: rgb(54, 26, 80);
+    color: azure;
+    width: 150px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+.checked{
+    color: orange;
+}

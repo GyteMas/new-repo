@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body {
+    font-family: outfit;
+    font-size: 48px;
+}
+
+.ikonos {
+    font-size: 48px;
+}
+
+.ikonos::before {
+    content: "";
+    display: block;
+    background: url(../assets/img/icons8-stop-sign-48.png) no-repeat;
+    width: 48px;
+    height: 48px;
+    float: left;
+    margin: 0 6px 0 0;
+}
+
+.bruk {
+    border: 5px solid red;
+    display: block;
+
+}
+
+.nurod {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+
+.nurod::after {
+    content: "/";
+}
+
+.nurod:first-child::before {
+    content: ">>";
+}
+
+.nurod:last-child::after {
+    content: "";
+}
+
+.nurod:first-child {
+    transition: 0.5s;
+}
+
+.nurod:first-child:hover::before {
+    position: relative;
+    top: 20px;
+    width: 100%;
+    right: 15px;
+}
+
+.melyni {
+    color: blue;
+}
+
+.ccss {
+    float: left;
+    width: 170px;
+    font-size: 16px;
+}
+
+.arrow {
+    height: 25vh;
+}
+
+.popup {
+    float: left;
+    width: 340px;
+    background: #727272;
+    padding: 10px;
+    border-radius: 6px;
+    color: #fff;
+    position: relative;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.popup::before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    border-right: 12px solid #727272;
+    position: absolute;
+    left: -12px;
+}
+
+.liink {
+    padding: 20px;
+    color: blue;
+    background-color: rgb(223, 195, 158);
+}
+
+.llink::before {
+    background-image: url('../assets/img/purepng.com-jerry-tom-and-jerrytom-and-jerrytomjerryanimated-seriesin-1940characters-1701528659516njqf3-removebg-preview.png');
+    background-repeat: no-repeat;
+    background-size: 80px 120px;
+    display: inline-block;
+    width: 80px;
+    height: 120px;
+    content: "";
+    padding-right: 20px;
+    transition: all 1s ease;
+}
+.llink::after{
+    background-image: url('../assets/img/purepng.com-jerry-tom-and-jerrytom-and-jerrytomjerryanimated-seriesin-1940characters-1701528659516njqf3-removebg-preview.png');
+    background-repeat: no-repeat;
+    background-size: 80px 120px;
+    display: inline-block;
+    width: 80px;
+    height: 120px;
+    content: "";
+    background-position: 40px 0;
+    padding-left: 40px;
+    transition: all 1s ease;
+}
+.llink:hover::before{
+    transform: rotate(180deg);
+    padding-right: 40px;
+}
+.llink:hover::after{
+    transform: scale(1.5) rotate(-90deg);
+    padding-left: 200px;
+    background-position: 200px 0;
+}
+.deve{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+i{
+    height: 48px;
+    width: 48px;
+    transition: all 0.5s;
+}
+.deve:hover i{
+    transform: scale(1.5) rotate(90deg);
+}

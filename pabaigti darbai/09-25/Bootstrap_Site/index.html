@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Bootstrap Tutorial Sample Page</title>
+</head>
+
+<body>
+  <nav class="w-full bg-green-400 flex justify-between item-center px-10 py-3 text-gray-100" text>
+    <a class="flex p-5 text-lg" href="#">Logo</a>
+    <ul class="flex p-5 gap-3 text-lg">
+      <li>
+        <a href="#">Home</a>
+      </li>
+      <li>
+        <a href="#">About</a>
+      </li>
+      <li>
+        <a href="#">Contact</a>
+      </li>
+    </ul>
+  </nav>
+  <header class="h-[45vh] bg-cover bg-center flex flex-col place-items-center relative"
+    style="background-image: url(images/header-background.jpg);">
+    <div class="description flex flex-col place-items-center gap-5 absolute top-40">
+      <h1 class="text-green-600 text-3xl">Welcome to the Landing Page!</h1>
+      <p class="text-center mx-10 text-gray-100 max-w-screen-sm">Lorem ipsum dolor sit amet, consectetur adipiscing
+        elit. Quisque interdum quam odio, quis placerat ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate
+        quam iaculis. Suspendisse consectetur mi id libero fringilla, in pharetra sem
+        ullamcorper.</p>
+      <button class="bg-green-400  p-2">Tell Me More!</button>
+    </div>
+  </header>
+  <main class="pt-5 bg-red-100 ">
+    <section class="grid place-content-center grid-cols-1 max-w-screen-lg m-auto sm:grid-cols-3 pb-10">
+      <div class="p-5">
+        <h3 class="font-bold uppercase"> Lorem ipsum</h3>
+        <img src="images/column-1.jpg">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat ante
+          luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
+      </div>
+
+      <div class="p-5">
+        <h3 class="font-bold uppercase">Lorem ipsum</h3>
+        <img src="images/column-2.jpg">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat ante
+          luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
+      </div>
+      <form action="">
+        <div class="p-5">
+          <h3 class="font-bold uppercase">Get in Touch!</h3>
+          <div class="flex flex-col w-full border-slate-100 pb-2.5">
+            <input type="text" placeholder="Name" name="">
+          </div>
+          <div class="flex flex-col w-full border-slate-100">
+            <input type="email" placeholder="Email Address" name="email">
+          </div>
+        </div>
+        <div class="p-5">
+          <div class="flex flex-col w-full border-slate-100">
+            <textarea rows="4"></textarea>
+          </div>
+          <input class="bg-green-400 w-full mt-5" type="submit" value="Send" name="">
+        </div>
+      </form>
+    </section>
+  </main>
+  <footer class="bg-slate-800 text-gray-100 pb-10">
+    <section class="grid text-center  max-w-screen-lg m-auto sm:grid-cols-2">
+    <div class="p-5">
+      <h6 class="text-uppercase font-bold">Additional Information</h6>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat ante luctus
+        eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat ante luctus
+        eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
+    </div>
+    <div class="p-5">
+      <h6 class="text-uppercase font-bold">Contact</h6>
+      <p>1640 Riverside Drive, Hill Valley, California
+        <br />info@mywebsite.com
+        <br />+ 01 234 567 88
+        <br />+ 01 234 567 89
+      </p>
+    </div>
+  </section>
+    <div class="footer-copyright text-center p-5">© 2019 Copyright: MyWebsite.com</div>
+  </footer>
+</body>
+
+</html>

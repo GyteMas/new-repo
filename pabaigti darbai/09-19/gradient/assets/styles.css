@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Sofadi+One&display=swap');
+
+body {
+    font-family: "Sofadi One", system-ui;
+
+}
+
+.banner {
+    background-image: url(../assets/img/stone-platform-in-front-of-a-waterfall-in-a-forest-photo.jpeg);
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.banner h1 {
+    font-size: 36px;
+    z-index: 1;
+}
+
+.banner::before {
+    content: "";
+    background-image: linear-gradient(to bottom right, orange, cyan);
+    opacity: 0.5;
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    position: absolute;
+}
+.overlay::before{
+    mix-blend-mode: overlay;
+}
+.exclusion::before{
+    mix-blend-mode: exclusion;
+}
+.lumi::before{
+    mix-blend-mode: luminosity;
+}

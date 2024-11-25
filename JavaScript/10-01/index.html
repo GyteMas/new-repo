@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="../script.js" defer></script>
+    <link href="../src/css/output.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="border-2 border-green-900 w-[40vw] grid grid-cols-2">
+      <div class="flex flex-col border-2 border-green-900 w-[20vw]">
+        <span class="border-2 border-green-900 w-[20vw] font-bold">Duomenys</span>
+        <div>
+          <label for="">is kokio aukscio soka parasiutininkas?</label><input class="border-2 border-green-900 w-[5vw]" type="text"
+            id="1die" />
+        </div>
+        <div>
+          <label for="">Per kiek sekundziu issiskleidzia parasiutas?</label>
+          <input class="border-2 border-green-900 w-[5vw]" type="text"
+            id="2die" />
+        </div>
+        <button class="bg-green-900 w-[100px] place-self-center font-bold" id="calc" type="submit"
+          value="Submit">skaiciuoti</button>
+      </div>
+      <div class="flex flex-col border-2 border-green-900 w-[20vw]">
+        <span class="border-2 border-green-900 w-[20vw] font-bold">Rezultatai</span>
+        <p id="rezult"></p>
+       
+      </div>
+    </div>
+
+    <script src="/node_modules/flowbite/dist/flowbite.min.js"></script>
+
+  </body>
+</html>
